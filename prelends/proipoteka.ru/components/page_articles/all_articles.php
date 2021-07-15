@@ -33,7 +33,7 @@
                                                 <img
                                                     width="320"
                                                     height="183"
-                                                    src="<?php print($item->src); ?>"
+                                                    src="<?php print($PATH_PRELANDING.$item->src); ?>"
                                                     class="attachment-movedo-grve-large-rect-horizontal size-movedo-grve-large-rect-horizontal wp-post-image"
                                                     alt=""
                                                     loading="lazy"

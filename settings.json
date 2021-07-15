@@ -14,11 +14,6 @@
             "name": "Сайт 3",
             "url": "site3.ru",
             "counterName": "counter site3"
-        },
-        {
-            "name": "Сайт 4",
-            "url": "site4.ru",
-            "counterName": "counter site4"
         }
     ],
     "md5": "dc66e780e1e9c908161223094d9a9061",

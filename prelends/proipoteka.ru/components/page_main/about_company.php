@@ -1,10 +1,14 @@
 <?php
+    global $data;
     $description = $data->aboutCompany->description;
     $staffImg = $data->aboutCompany->staffImg;
 
     function printStuff(){
-        global $data;
+        return "";
+
         $staffImg = $data->aboutCompany->staffImg;
+
+
         print($staffImg->size1536x1920.' 1280w, '.$staffImg->size240x300.' 240w, '.
             $staffImg->size768x960.' 768w, '.$staffImg->size819x1024.' 819w, '.$staffImg->size1536x1920.' 1536w');
     }
@@ -66,7 +70,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="1280" height="1600"
-                                 src="<?php print($staffImg->size1536x1920); ?>"
+                                 src="<?php print($PATH_PRELANDING.$staffImg->size1536x1920); ?>"
                                  class="attachment-full size-full" alt=""
                                  loading="lazy"
                                  srcset="<?php printStuff() ?>"
@@ -114,7 +118,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="1280" height="1600"
-                                 src="<?php print($staffImg->size1536x1920) ?>"
+                                 src="<?php print($PATH_PRELANDING.$staffImg->size1536x1920) ?>"
                                  class="attachment-full size-full" alt=""
                                  loading="lazy"
                                  srcset="<?php printStuff(); ?>"

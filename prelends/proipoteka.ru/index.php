@@ -8,12 +8,12 @@
 
 <head>
     <meta charset="UTF-8">
-	<link rel="stylesheet" href="css/vc_shortcodes-custom-css.css">
+	<link rel="stylesheet" href="<?php print $PATH_PRELANDING; ?>css/vc_shortcodes-custom-css.css">
 
     <?php
     echo $_SERVER['DOCUMENT_ROOT'];
-        include_once "php/metric-api.php";
-        renderMetrika();
+        //include_once "php/metric-api.php";
+        //renderMetrika();
     ?>
 
     <!-- This site is optimized with the Yoast SEO plugin v14.7 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -109,101 +109,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="application-name" content="Ипотечное агентство ПРОИпотека">
     <link rel='stylesheet' id='cnss_font_awesome_css-css'
-          href='wp-content/plugins/easy-social-icons/css/font-awesome/css/all.min.css' type='text/css' media='all'>
+          href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/easy-social-icons/css/font-awesome/css/all.min.css' type='text/css' media='all'>
     <link rel='stylesheet' id='cnss_font_awesome_v4_shims-css'
-          href='wp-content/plugins/easy-social-icons/css/font-awesome/css/v4-shims.min.css' type='text/css' media='all'>
-    <link rel='stylesheet' id='cnss_css-css' href='wp-content/plugins/easy-social-icons/css/cnss.css' type='text/css'
+          href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/easy-social-icons/css/font-awesome/css/v4-shims.min.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='cnss_css-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/easy-social-icons/css/cnss.css' type='text/css'
           media='all'>
-    <link rel='stylesheet' id='wp-block-library-css' href='wp-includes/css/dist/block-library/style.min.css'
+    <link rel='stylesheet' id='wp-block-library-css' href='<?php print $PATH_PRELANDING; ?>wp-includes/css/dist/block-library/style.min.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='contact-form-7-css' href='wp-content/plugins/contact-form-7/includes/css/styles.css'
+    <link rel='stylesheet' id='contact-form-7-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/contact-form-7/includes/css/styles.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/public/assets/css/rs6.css'
+    <link rel='stylesheet' id='rs-plugin-settings-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/revslider/public/assets/css/rs6.css'
           type='text/css' media='all'>
     <style id='rs-plugin-settings-inline-css' type='text/css'>
         #rs-demo-id {
         }
     </style>
-    <link rel='stylesheet' id='movedo-grve-awesome-fonts-css' href='wp-content/themes/movedo/css/font-awesome.min.css'
+    <link rel='stylesheet' id='movedo-grve-awesome-fonts-css' href='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/css/font-awesome.min.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='movedo-grve-theme-style-css' href='wp-content/themes/movedo/css/theme-style.css'
+    <link rel='stylesheet' id='movedo-grve-theme-style-css' href='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/css/theme-style.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='movedo-grve-elements-css' href='wp-content/themes/movedo/css/elements.css'
+    <link rel='stylesheet' id='movedo-grve-elements-css' href='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/css/elements.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='movedo-grve-custom-style-css' href='wp-content/themes/movedo/css/responsive.css'
+    <link rel='stylesheet' id='movedo-grve-custom-style-css' href='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/css/responsive.css'
           type='text/css' media='all'>
 
 
-	<link rel="stylesheet" href="css/movedo-grve-custom-style-inline-css.css">
-    <link rel='stylesheet' id='movedo-grve-style-css' href='wp-content/themes/movedo-child/style.css' type='text/css'
+	<link rel="stylesheet" href="<?php print $PATH_PRELANDING; ?>css/movedo-grve-custom-style-inline-css.css">
+    <link rel='stylesheet' id='movedo-grve-style-css' href='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo-child/style.css' type='text/css'
           media='all'>
     <!--[if lt IE 9]>
     <link rel='stylesheet' id='vc_lte_ie9-css'
-          href='css/vc_lte_ie9.min.css' type='text/css'
+          href='<?php print $PATH_PRELANDING; ?>css/vc_lte_ie9.min.css' type='text/css'
           media='screen'/>
     <![endif]-->
     <link rel='stylesheet' id='js_composer_front-css'
-          href='wp-content/plugins/js_composer/assets/css/js_composer.min.css' type='text/css' media='all'>
-    <link rel='stylesheet' id='popup-maker-site-css' href='wp-content/uploads/pum/pum-site-styles.css' type='text/css'
+          href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/js_composer/assets/css/js_composer.min.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='popup-maker-site-css' href='<?php print $PATH_PRELANDING; ?>wp-content/uploads/pum/pum-site-styles.css' type='text/css'
           media='all'>
     <link rel='stylesheet' id='qmn_quiz_template-css'
-          href='wp-content/plugins/quiz-master-next/templates/qmn_primary.css' type='text/css' media='all'>
-    <link rel='stylesheet' id='qmn_quiz_animation_style-css' href='wp-content/plugins/quiz-master-next/css/animate.css'
+          href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/templates/qmn_primary.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='qmn_quiz_animation_style-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/css/animate.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='qmn_quiz_common_style-css' href='wp-content/plugins/quiz-master-next/css/common.css'
+    <link rel='stylesheet' id='qmn_quiz_common_style-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/css/common.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='jquery-redmond-theme-css' href='wp-content/plugins/quiz-master-next/css/jquery-ui.css'
+    <link rel='stylesheet' id='jquery-redmond-theme-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/css/jquery-ui.css'
           type='text/css' media='all'>
     <link rel='stylesheet' id='jquery-ui-slider-rtl-css-css'
-          href='wp-content/plugins/quiz-master-next/css/jquery.ui.slider-rtl.css' type='text/css' media='all'>
-    <link rel='stylesheet' id='qsm_model_css-css' href='wp-content/plugins/quiz-master-next/css/qsm-admin.css'
+          href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/css/jquery.ui.slider-rtl.css' type='text/css' media='all'>
+    <link rel='stylesheet' id='qsm_model_css-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/css/qsm-admin.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='ulp-css' href='wp-content/plugins/layered-popups/css/style.min.css' type='text/css'
+    <link rel='stylesheet' id='ulp-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/layered-popups/css/style.min.css' type='text/css'
           media='all'>
-    <link rel='stylesheet' id='ulp-link-buttons-css' href='wp-content/plugins/layered-popups/css/link-buttons.min.css'
+    <link rel='stylesheet' id='ulp-link-buttons-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/layered-popups/css/link-buttons.min.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='animate.css-css' href='wp-content/plugins/layered-popups/css/animate.min.css'
+    <link rel='stylesheet' id='animate.css-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/layered-popups/css/animate.min.css'
           type='text/css' media='all'>
-    <link rel='stylesheet' id='spinkit-css' href='wp-content/plugins/layered-popups/css/spinkit.min.css' type='text/css'
+    <link rel='stylesheet' id='spinkit-css' href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/layered-popups/css/spinkit.min.css' type='text/css'
           media='all'>
     <link rel='stylesheet' id='redux-google-fonts-movedo_grve_options-css'
-          href='css/css.css?family=Roboto%3A400%2C700%2C300%7CPoppins%3A700%7CHind+Siliguri%3A400&#038;subset=cyrillic'
+          href='<?php print $PATH_PRELANDING; ?>css/css.css?family=Roboto%3A400%2C700%2C300%7CPoppins%3A700%7CHind+Siliguri%3A400&#038;subset=cyrillic'
           type='text/css' media='all'>
 
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/jquery.maskedinput.min.js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/jquery.maskedinput.min.js'></script>
 
-    <script type='text/javascript' src='wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/ui/widget.min.js' id='jquery-ui-widget-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/easy-social-icons/js/cnss.js' id='cnss_js-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/ui/core.min.js' id='jquery-ui-core-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/ui/widget.min.js' id='jquery-ui-widget-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/easy-social-icons/js/cnss.js' id='cnss_js-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/revslider/public/assets/js/revolution.tools.min.js'
             id='tp-tools-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/revslider/public/assets/js/rs6.min.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/revslider/public/assets/js/rs6.min.js'
             id='revmin-js'></script>
-    <script type='text/javascript' src='wp-content/themes/movedo/calc.js' id='calc-js'></script>
-    <script type='text/javascript' src='wp-content/themes/movedo/js/modernizr.custom.js' id='modernizr-js'></script>
-    <script type='text/javascript' src='wp-includes/js/jquery/ui/position.min.js' id='jquery-ui-position-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/calc.js' id='calc-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/js/modernizr.custom.js' id='modernizr-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/ui/position.min.js' id='jquery-ui-position-js'></script>
     <!--[if lt IE 8]>
-    <script type='text/javascript' src='wp-includes/js/json2.min.js' id='json2-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/json2.min.js' id='json2-js'></script>
     <![endif]-->
-    <script type='text/javascript' src='wp-includes/js/jquery/ui/tooltip.min.js' id='jquery-ui-tooltip-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/quiz-master-next/js/progressbar.min.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/ui/tooltip.min.js' id='jquery-ui-tooltip-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/js/progressbar.min.js'
             id='progress-bar-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/quiz-master-next/js/jquery-ui.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/js/jquery-ui.js'
             id='jquery-ui-slider-js-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/quiz-master-next/js/jquery.ui.slider-rtl.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/js/jquery.ui.slider-rtl.js'
             id='jquery-ui-slider-rtl-js-js'></script>
-    <script type='text/javascript' src='ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js'
             id='jqueryui-touch-js-js'></script>
-    <script type='text/javascript' src='wp-content/plugins/quiz-master-next/js/micromodal.min.js'
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/js/micromodal.min.js'
             id='qsm_model_js-js'></script>
-    <script type='text/javascript' src='wp-includes/js/underscore.min.js' id='underscore-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/underscore.min.js' id='underscore-js'></script>
     <script type='text/javascript' id='wp-util-js-extra'>
         /* <![CDATA[ */
         var _wpUtilSettings = {"ajax": {"url": "\/wp-admin\/admin-ajax.php"}};
         /* ]]> */
     </script>
-    <script type='text/javascript' src='wp-includes/js/wp-util.min.js' id='wp-util-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/wp-util.min.js' id='wp-util-js'></script>
 
     <!--
     <script type='text/javascript' id='qsm_quiz-js-extra'>
@@ -218,10 +218,10 @@
         /* ]]> */
     </script>
     -->
-    <script type='text/javascript' src='wp-content/plugins/quiz-master-next/js/qsm-quiz.js' id='qsm_quiz-js'></script>
-    <script type='text/javascript' src='ajax/libs/mathjax/2.7.2/MathJax.js' id='math_jax-js'></script>
-    <link rel="https://api.w.org/" href="wp-json/index.htm.json">
-    <link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/279.json">
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/js/qsm-quiz.js' id='qsm_quiz-js'></script>
+    <script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>ajax/libs/mathjax/2.7.2/MathJax.js' id='math_jax-js'></script>
+    <link rel="https://api.w.org/" href="<?php print $PATH_PRELANDING; ?>wp-json/index.htm.json">
+    <link rel="alternate" type="application/json" href="<?php print $PATH_PRELANDING; ?>wp-json/wp/v2/pages/279.json">
     <meta name="generator" content="WordPress 5.5.5">
     <style type="text/css">
         ul.cnss-social-icon li.cn-fa-icon a:hover {
@@ -306,9 +306,9 @@
     <!--			var ulp_onidle_delay = "30";-->
     <!--		</script>-->
 
-    <link rel="icon" href="wp-content/uploads/2019/09/cropped-lllloooogggooo-32x32.png" sizes="32x32">
-    <link rel="icon" href="wp-content/uploads/2019/09/cropped-lllloooogggooo-192x192.png" sizes="192x192">
-    <link rel="apple-touch-icon" href="wp-content/uploads/2019/09/cropped-lllloooogggooo-180x180.png">
+    <link rel="icon" href="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/cropped-lllloooogggooo-32x32.png" sizes="32x32">
+    <link rel="icon" href="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/cropped-lllloooogggooo-192x192.png" sizes="192x192">
+    <link rel="apple-touch-icon" href="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/cropped-lllloooogggooo-180x180.png">
 
 <!--    <meta name="msapplication-TileImage"-->
 <!--          content="https://proipoteka.ruwp-content/uploads/2019/09/cropped-lllloooogggooo-270x270.png">-->
@@ -365,7 +365,6 @@
 </head>
 
 <?php
-    $data = json_decode(file_get_contents('./json/data.json'));
     $isArticle = isset($_GET['id']);
     $isAllArticles = isset($_GET['allArticles']);
     $isRedirect = isset($_GET['redirect']);
@@ -386,9 +385,11 @@
 
 <?php include_once "components/modal.php"; ?>
 <!-- Google Tag Manager (noscript) -->
+<!--
 <noscript>
     <iframe src="ns.html?id=GTM-5LD9NVC" height="0" width="0" style="display:none;visibility:hidden"></iframe>
 </noscript>
+-->
 <!-- End Google Tag Manager (noscript) -->
 
 
@@ -526,7 +527,7 @@
                                     include_once "components/page_main/whom_me_help.php";  //todo Подправить блок
                                     include_once "components/page_main/approval_stages.php";
 
-                                    include_once "components/page_main/video.php";
+                                    //include_once "components/page_main/video.php";
                                     include_once "components/page_main/control_deal.php";
 
                                     include_once "components/page_main/price.php";
@@ -730,7 +731,7 @@
 </div> <!-- end #grve-theme-wrapper -->
 
 <!--noptimize--><!--email_off-->
-<link rel="stylesheet" href="css/maxbutton.css">
+<link rel="stylesheet" href="<?php print $PATH_PRELANDING; ?>css/maxbutton.css">
 <!--/email_off--><!--/noptimize-->
 
 <div id="pum-1063"
@@ -746,7 +747,7 @@
             <p style="text-align: center;">
                 <a href="<?php print($data->contacts->instagram); ?>" target="_blank" rel="noopener noreferrer">
                     <img loading="lazy" class="size-medium wp-image-1067 aligncenter"
-                         src="wp-content/uploads/2020/02/popup-insta.png" alt="" width="300" height="300">
+                         src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2020/02/popup-insta.png" alt="" width="300" height="300">
             </a></p>
             <style>
                 button.pum-close.popmake-close {
@@ -942,8 +943,8 @@
                     <div class="qsm-popup__container qmn_quiz_container" role="dialog" aria-modal="true"
                          aria-labelledby="modal-3-title">
                         <main class="qsm-popup__content"><img
-                                src="wp-content/plugins/quiz-master-next/assets/clock.png">
-                            <noscript><img src="wp-content/plugins/quiz-master-next/assets/clock.png"></noscript>
+                                src="<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/assets/clock.png">
+                            <noscript><img src="<?php print $PATH_PRELANDING; ?>wp-content/plugins/quiz-master-next/assets/clock.png"></noscript>
                             <p class="qsm-time-up-text">Time is Up!</p></main>
                         <footer class="qsm-popup__footer">
                             <button class="qsm-popup-secondary-button qmn_btn" data-micromodal-close=""
@@ -1047,14 +1048,14 @@
     }
 </script>
 
-<link rel='stylesheet' id='so-css-movedo-css' href='wp-content/uploads/so-css/so-css-movedo.css' type='text/css'
+<link rel='stylesheet' id='so-css-movedo-css' href='<?php print $PATH_PRELANDING; ?>wp-content/uploads/so-css/so-css-movedo.css' type='text/css'
       media='all'>
 <link rel='stylesheet' id='movedo-ext-vc-simple-line-icons-css'
-      href='wp-content/plugins/movedo-extension/assets/css/simple-line-icons.css' type='text/css' media='all'>
+      href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/movedo-extension/assets/css/simple-line-icons.css' type='text/css' media='all'>
 <link rel='stylesheet' id='movedo-ext-vc-elegant-line-icons-css'
-      href='wp-content/plugins/movedo-extension/assets/css/et-line-icons.css' type='text/css' media='all'>
-<script type='text/javascript' src='wp-includes/js/jquery/ui/mouse.min.js' id='jquery-ui-mouse-js'></script>
-<script type='text/javascript' src='wp-includes/js/jquery/ui/sortable.min.js' id='jquery-ui-sortable-js'></script>
+      href='<?php print $PATH_PRELANDING; ?>wp-content/plugins/movedo-extension/assets/css/et-line-icons.css' type='text/css' media='all'>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/ui/mouse.min.js' id='jquery-ui-mouse-js'></script>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-includes/js/jquery/ui/sortable.min.js' id='jquery-ui-sortable-js'></script>
 <script type='text/javascript' id='contact-form-7-js-extra'>
     /* <![CDATA[ */
     var wpcf7 = {
@@ -1071,7 +1072,7 @@
     };
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/plugins/contact-form-7/includes/js/scripts.js'
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/contact-form-7/includes/js/scripts.js'
         id='contact-form-7-js'></script>
 <script type='text/javascript' id='movedo-grve-plugins-js-extra'>
     /* <![CDATA[ */
@@ -1080,7 +1081,7 @@
     var movedo_grve_smoothscroll_data = {"smoothscrolling": "1"};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/themes/movedo/js/plugins.js' id='movedo-grve-plugins-js'></script>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/js/plugins.js' id='movedo-grve-plugins-js'></script>
 <script type='text/javascript' id='movedo-grve-main-script-js-extra'>
     /* <![CDATA[ */
     var movedo_grve_main_data = {
@@ -1100,7 +1101,7 @@
     };
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/themes/movedo/js/main.js' id='movedo-grve-main-script-js'></script>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/js/main.js' id='movedo-grve-main-script-js'></script>
 <script type='text/javascript' id='movedo-grve-main-script-js-after'>
     var screen_width = Math.max(screen.width, screen.height);
     var devicePixelRatio = window.devicePixelRatio ? window.devicePixelRatio : 1;
@@ -1329,16 +1330,16 @@
     };
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/uploads/pum/pum-site-scripts.js' id='popup-maker-site-js'></script>
-<script type='text/javascript' src='wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/uploads/pum/pum-site-scripts.js' id='popup-maker-site-js'></script>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/js_composer/assets/js/dist/js_composer_front.min.js'
         id='wpb_composer_front_js-js'></script>
-<script type='text/javascript' src='wp-content/plugins/layered-popups/js/script.min.js' id='ulp-js'></script>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/plugins/layered-popups/js/script.min.js' id='ulp-js'></script>
 <script type='text/javascript' id='movedo-grve-login-js-extra'>
     /* <![CDATA[ */
     //var grve_form = {"ajaxurl": "https:\/\/proipoteka.ru\/wp-admin\/admin-ajax.php", "redirect_url": ""};
     /* ]]> */
 </script>
-<script type='text/javascript' src='wp-content/themes/movedo/js/ajax-login.js' id='movedo-grve-login-js'></script>
+<script type='text/javascript' src='<?php print $PATH_PRELANDING; ?>wp-content/themes/movedo/js/ajax-login.js' id='movedo-grve-login-js'></script>
 
 <!--<script>-->
 <!--    var ulp_ajax_url = "https://proipoteka.ru/wp-admin/admin-ajax.php";-->
@@ -1565,7 +1566,7 @@
     e.addEventListener ? e.addEventListener("load", a, !1) : e.attachEvent("onload", a)
 }(window, document);</script>
 
-    <script src="components/modal.js"></script>
+    <script src="<?php print $PATH_PRELANDING; ?>components/modal.js"></script>
     <script src="js/counter.js"></script>
     <script src="js/goal.js"></script>
 

@@ -40,7 +40,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l2-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l2-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -52,7 +52,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l4-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l4-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -64,7 +64,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l9-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l9-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -76,7 +76,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l12-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l12-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -100,7 +100,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l1-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l1-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -112,7 +112,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l3-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l3-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -124,7 +124,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l5-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l5-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -136,7 +136,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l7-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l7-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -156,7 +156,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l6-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l6-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -168,7 +168,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l8-1-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l8-1-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -180,7 +180,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l10-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l10-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>
@@ -192,7 +192,7 @@
                     <div class="grve-element grve-image grve-align-center" style="">
                         <div class="grve-image-wrapper">
                             <img width="300" height="200"
-                                 src="wp-content/uploads/2019/09/l11-300x200.jpg"
+                                 src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l11-300x200.jpg"
                                  class="attachment-medium size-medium" alt=""
                                  loading="lazy">
                         </div>

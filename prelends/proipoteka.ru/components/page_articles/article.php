@@ -13,7 +13,7 @@
                     <img
                         width="320"
                         height="183"
-                        src="<?php print ($article->src); ?>"
+                        src="<?php print ($PATH_PRELANDING.$article->src); ?>"
                         class="attachment-medium_large size-medium_large wp-post-image"
                     />
             </div>

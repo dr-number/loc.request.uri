@@ -10,13 +10,13 @@
                         <div class="grve-logo grve-position-left">
                             <div class="grve-wrapper">
                                 <a href="index.php">
-                                    <img class="grve-default" src="wp-content/uploads/2019/09/l1.png"
+                                    <img class="grve-default" src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l1.png"
                                          alt="Ипотечное агентство ПРОИпотека" width="435" height="611">
-                                    <img class="grve-light" src="wp-content/uploads/2019/09/l1.png"
+                                    <img class="grve-light" src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l1.png"
                                          alt="Ипотечное агентство ПРОИпотека" width="435" height="611">
-                                    <img class="grve-dark" src="wp-content/uploads/2019/09/l1.png"
+                                    <img class="grve-dark" src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l1.png"
                                          alt="Ипотечное агентство ПРОИпотека" width="435" height="611">
-                                    <img class="grve-sticky" src="wp-content/uploads/2019/09/l1.png"
+                                    <img class="grve-sticky" src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l1.png"
                                          alt="Ипотечное агентство ПРОИпотека" width="435" height="611">
                                 </a>
                             </div>
@@ -87,12 +87,9 @@
                         <div class="grve-logo grve-position-left">
                             <div class="grve-wrapper">
                                 <a href="index.php">
-                                    <img class="grve-logo-responsive" src="wp-content/uploads/2019/09/l1.png"
-                                         alt="Ипотечное агентство ПРОИпотека" width="435" height="611">
-                                    <noscript><img class="grve-logo-responsive"
-                                                   src="wp-content/uploads/2019/09/l1.png"
+                                   <img class="grve-logo-responsive"
+                                                   src="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2019/09/l1.png"
                                                    alt="Ипотечное агентство ПРОИпотека" width="435" height="611">
-                                    </noscript>
                                 </a>
                             </div>
                         </div>

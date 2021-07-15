@@ -18,7 +18,7 @@
                         <div class="grve-element grve-image grve-align-center">
                             <div class="grve-image-wrapper">
                                 <img width="800" height="800"
-                                     src="<?php print($item->src); ?>"
+                                     src="<?php print($PATH_PRELANDING.$item->src); ?>"
                                      class="attachment-full size-full" alt="">
                             </div>
                         </div>
@@ -71,10 +71,10 @@
                         <div class="grve-element grve-image grve-align-center" style="">
                             <div class="grve-image-wrapper">
                                 <img width="800" height="800"
-                                     src="<?php print($src); ?>"
+                                     src="<?php print($PATH_PRELANDING.$src); ?>"
                                      class="attachment-full size-full" alt=""
                                      loading="lazy"
-                                     srcset="<?php print($src); ?> 1x, <?php print($src); ?> 2x">
+                                     srcset="<?php print($PATH_PRELANDING.$src); ?> 1x, <?php print($PATH_PRELANDING.$src); ?> 2x">
                             </div>
                         </div>
                         <div class="grve-empty-space grve-height-1x" style=""></div>

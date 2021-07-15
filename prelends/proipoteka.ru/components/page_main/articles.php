@@ -52,7 +52,7 @@
                                         <a class="grve-item-url"
                                            href="?id=<?php print($id); ?>"></a>
                                         <img width="320" height="183"
-                                             src="<?php print($item->src); ?>"
+                                             src="<?php print($PATH_PRELANDING.$item->src); ?>"
                                              class="attachment-movedo-grve-small-rect-horizontal size-movedo-grve-small-rect-horizontal wp-post-image"
                                              alt="" loading="lazy">
                                         <div class="grve-bg-black grve-hover-overlay grve-opacity-10"></div>

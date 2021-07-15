@@ -1,4 +1,6 @@
 <?php
+    $data = "";
+    $PATH_PRELANDING = "";
 
     function parseRequestUri($request_uri){
 
@@ -17,7 +19,16 @@
     }
 
     function goToUrl($url){
-        header('Location: /prelends/'.$url.'/index.php');
+        //header('Location: /prelends/'.$url.'/index.php');
+
+        global $PATH_PRELANDING;
+        $PATH_PRELANDING = 'prelends/'.$url.'/';
+
+        global $data;
+        $data = json_decode(file_get_contents($PATH_PRELANDING.'json/data.json'));
+        include_once $PATH_PRELANDING.'index.php';
+
+        //include_once "prelends/proipoteka.ru/index.php";
     }
 
 
@@ -44,32 +55,35 @@
 	http_response_code(200);
     */
 
-	echo $url.'<br>';
+	//echo $url.'<br>';
 
 	$parse_url = parse_url($url);
 	
 	//echo 'protocol '.$parse_url['scheme'].'<br>';
-    echo 'protocol: '.$host.'<br>';
-    echo 'host: '.$parse_url['host'].'<br>';
+
+    //echo 'protocol: '.$host.'<br>';
+    //echo 'host: '.$parse_url['host'].'<br>';
 
     //echo 'user '.$parse_url['user'].'<br>';
     //echo 'pass '.$parse_url['pass'].'<br>';
 
-    echo 'path: '.$parse_url['path'].'<br>';
+   // echo 'path: '.$parse_url['path'].'<br>';
 
     //echo 'query '.$parse_url['query'].'<br>';
     //echo 'fragment '.$parse_url['fragment'].'<br>';
 
+/*
     echo '<br>params: ';
 
     echo '<pre>';
     print_r($request_uri);
     echo '</pre>';
+*/
 
     parse_str($request_uri,  $output);
-    print_r($output);
 
-    echo "<br>";
+    //print_r($output);
+    //echo "<br>";
 
     $output = parseRequestUri($request_uri);
     $url = $output['url'];

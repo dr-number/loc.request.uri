@@ -83,11 +83,11 @@
                                     <ul id="menu-dogovor" class="menu">
                                         <li id="menu-item-1043"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1043">
-                                            <a href="wp-content/uploads/2020/01/refinance.docx">Договор
+                                            <a href="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2020/01/refinance.docx">Договор
                                                 Рефинансирование</a></li>
                                         <li id="menu-item-1044"
                                             class="menu-item menu-item-type-custom menu-item-object-custom menu-item-1044">
-                                            <a href="wp-content/uploads/2020/01/dog_ipoteka.docx">Договор
+                                            <a href="<?php print $PATH_PRELANDING; ?>wp-content/uploads/2020/01/dog_ipoteka.docx">Договор
                                                 Ипотека</a></li>
                                     </ul>
                                 </div>

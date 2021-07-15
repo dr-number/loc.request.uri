@@ -1,1 +1,0 @@
-{"goal":{"id":198847033,"name":"оформить заявку","type":"form","default_price":0.0,"is_retargeting":0,"goal_source":"user","prev_goal_id":0,"conditions":[{"type":"form_xpath","url":"FAA1"}]}}
