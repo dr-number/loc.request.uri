@@ -1,16 +1,27 @@
 <?php
 
     function parseRequestUri($request_uri){
+
+        $result = array();
         parse_str($request_uri,  $output);
 
         foreach($output as $key=>$value) {
             $key = str_replace("/?", "", $key);
+            $result += [$key=>$value];
+
             echo "<span>".$key."</span> : <b>".$value."</b><br>";
         }
+
+
+        return $result;
+    }
+
+    function goToUrl($url){
+        header('Location: /prelends/'.$url.'/index.php');
     }
 
 
-$host = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http');
+    $host = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http');
 
 	$request_uri =  $_SERVER['REQUEST_URI'];
 
@@ -20,6 +31,7 @@ $host = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http');
     //$request_uri = str_replace("/?", "?", $request_uri);
     $url = $url.$request_uri;
 
+    /*
 	$ch = curl_init($url);
 	curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
@@ -30,6 +42,7 @@ $host = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http');
     	$http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
 	curl_close($ch);
 	http_response_code(200);
+    */
 
 	echo $url.'<br>';
 
@@ -58,8 +71,19 @@ $host = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http');
 
     echo "<br>";
 
+    $output = parseRequestUri($request_uri);
+    $url = $output['url'];
+
+    $data = json_decode(file_get_contents('./settings.json'));
+
+    $projects = $data->projects;
+    foreach ($projects as $id=>$item){
+        if($item->name == $url || $item->url == $url)
+            goToUrl($item->url);
+    }
+
+    //echo $url;
     //header('Location: /prelends/proipoteka.ru/');
 
-    parseRequestUri($request_uri);
 
 ?>
