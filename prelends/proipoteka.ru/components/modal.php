@@ -136,24 +136,6 @@
     </div>
 </div>
 
-<script>
-  jQuery(function($){
-    $("#phone").mask("+7 (999) 999-9999");
-
-    $("#name").on('input', function(){
-      const oldValue = this.value;
-      this.value = this.value.replace(/[^аА-яЯ]/g, '');
-      const newValue = this.value;
-
-      if(oldValue.length != 0 && oldValue != newValue)
-        $("#bun-symbols").show();
-      else
-        $("#bun-symbols").hide();
-    });
-  });
-</script>
-
-
 <div id="modal-status" class="modal" style="display: none">
     <div class="modal-content">
         <div class="modal-header">

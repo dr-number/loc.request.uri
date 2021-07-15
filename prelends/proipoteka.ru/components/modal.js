@@ -1,3 +1,18 @@
+jQuery(function($){
+  $("#phone").mask("+7 (999) 999-9999");
+
+  $("#name").on('input', function(){
+    const oldValue = this.value;
+    this.value = this.value.replace(/[^аА-яЯ]/g, '');
+    const newValue = this.value;
+
+    if(oldValue.length != 0 && oldValue != newValue)
+      $("#bun-symbols").show();
+    else
+      $("#bun-symbols").hide();
+  });
+});
+
 window.onload = function() {
 
   const HREF_ID = "#ulp-wwxxhOM6JtVDZgco";
@@ -40,7 +55,10 @@ window.onload = function() {
 
       (function () {
 
-        const  path = document.documentURI.replace("index.php", "").replace(HREF_ID, "");
+        let path = document.documentURI.replace("index.php", "").replace(HREF_ID, "");
+        path = path.split('?')[0];
+
+        path = path + "prelends/proipoteka.ru/"
 
         getResource(path + 'php/mail/mail.php')
           .then(data => console.log(data))

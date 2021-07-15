@@ -11,7 +11,6 @@
 	<link rel="stylesheet" href="<?php print $PATH_PRELANDING; ?>css/vc_shortcodes-custom-css.css">
 
     <?php
-    echo $_SERVER['DOCUMENT_ROOT'];
         //include_once "php/metric-api.php";
         //renderMetrika();
     ?>

@@ -11,7 +11,7 @@
             $key = str_replace("/?", "", $key);
             $result += [$key=>$value];
 
-            echo "<span>".$key."</span> : <b>".$value."</b><br>";
+           // echo "<span>".$key."</span> : <b>".$value."</b><br>";
         }
 
 
@@ -37,10 +37,11 @@
 	$request_uri =  $_SERVER['REQUEST_URI'];
 
     //$url = ((!empty($_SERVER['HTTPS'])) ? 'https' : 'http') . '://' . $_SERVER['HTTP_HOST'].'<br>';
-    $url = 'https://ec-d.ru';
+
+    //$url = 'https://ec-d.ru';
 
     //$request_uri = str_replace("/?", "?", $request_uri);
-    $url = $url.$request_uri;
+    //$url = $url.$request_uri;
 
     /*
 	$ch = curl_init($url);
@@ -57,7 +58,7 @@
 
 	//echo $url.'<br>';
 
-	$parse_url = parse_url($url);
+	//$parse_url = parse_url($url);
 	
 	//echo 'protocol '.$parse_url['scheme'].'<br>';
 
@@ -92,8 +93,10 @@
 
     $projects = $data->projects;
     foreach ($projects as $id=>$item){
-        if($item->name == $url || $item->url == $url)
+        if($item->name == $url || $item->url == $url) {
             goToUrl($item->url);
+            break;
+        }
     }
 
     //echo $url;
