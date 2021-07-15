@@ -6,10 +6,12 @@ jQuery(function($){
     this.value = this.value.replace(/[^аА-яЯ]/g, '');
     const newValue = this.value;
 
+    const errorElement = $("#error-form");
+
     if(oldValue.length != 0 && oldValue != newValue)
-      $("#bun-symbols").show();
+        errorElement.text("Разрешены только русские символы!");
     else
-      $("#bun-symbols").hide();
+      errorElement.text("");
   });
 });
 
@@ -51,6 +53,31 @@ window.onload = function() {
     }));
 
   document.getElementById("send-order").onclick = function () {
+
+    const phone = document.getElementById("phone");
+    const name = document.getElementById("name");
+
+    const nameValue = name.value;
+    const phoneValue = phone.value;
+
+    const errorElement = document.getElementById("error-form");
+
+    if(nameValue == "") {
+      errorElement.innerText = "Введите имя!";
+      return;
+    }
+    else if(phoneValue == "") {
+      errorElement.innerText = "Введите номер телефона!";
+      return;
+    }
+    else if(phoneValue.length != 17) {
+      errorElement.innerText = "Некорректный номер телефона!";
+      return;
+    }
+    else {
+      errorElement.innerText = "";
+    }
+
     setTimeout(function () {
 
       (function () {
@@ -66,12 +93,10 @@ window.onload = function() {
       }());
 
       async function getResource(url) {
-        const phone = document.getElementById("phone");
-        const name = document.getElementById("name");
 
         const  postData = JSON.stringify({
-          phone: phone.value,
-          name: name.value
+          phone: phoneValue,
+          name: nameValue
         });
 
         const res = await fetch(url, {

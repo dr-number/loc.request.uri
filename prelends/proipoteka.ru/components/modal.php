@@ -105,9 +105,9 @@
     #modal-order #name{
         text-transform: capitalize;
     }
-    #modal-order #bun-symbols{
+    #modal-order #error-form{
         color: red;
-        display: none;
+        display: block;
     }
 </style>
 
@@ -122,10 +122,10 @@
             <label for="name">Ваше имя</label>
             <input name="name" maxlength="25" id="name" type="text" required>
             <br>
-            <span id="bun-symbols">Разрешены только русские символы!</span>
-            <br>
             <label for="phone">Ваш номер телефона</label>
             <input name="phone" id="phone" type="" required>
+            <br>
+            <span id="error-form"></span>
             <br>
             <button id="send-order" type="button" class="modal-button">Отправить</button>
 
