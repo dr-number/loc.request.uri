@@ -1,16 +1,5 @@
 <?php
-
-    $URL_METRIKA_COUNTERS = "https://api-metrika.yandex.net/management/v1/counters";
-
-    $TOKEN = "AQAAAAANqFA4AAc-EbXZF10eZk8NlvI4V8ezcjM";
-    $ID_COUNTER_METRIC = "82831150";
-
-    $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
-
-    $PATH_FILES_METRIK_JSON = $DOCUMENT_ROOT."/json/metrik/";
-    $FILE_METRIK = "metrics.json";
-    $FILE_COUNTERS_INFO = "counters_info.json";
-    $FILE_GOAL_ORDER = "goal_order.json";
+   global $ID_COUNTER_METRIC, $PATH_FILES_METRIK_JSON, $FILE_METRIK, $FILE_GOAL_ORDER, $FILE_COUNTERS_INFO;
 
     function getContext(){
         global $TOKEN;
@@ -229,7 +218,6 @@ function saveDataGoal($ID_COUNTER_METRIC, $GOAL, $outputFile){
 
         print "<!-- /Yandex.Metrika counter -->";
     }
-
 
     //saveDataMetrik($ID_COUNTER_METRIC,  $PATH_FILES_METRIK_JSON.$FILE_METRIK);
     //saveDataGoal($ID_COUNTER_METRIC, "198847033", $PATH_FILES_METRIK_JSON.$FILE_GOAL_ORDER);

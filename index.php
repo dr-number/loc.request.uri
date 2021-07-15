@@ -1,6 +1,33 @@
 <?php
+
     $data = "";
     $PATH_PRELANDING = "";
+
+    $URL_METRIKA_COUNTERS = "https://api-metrika.yandex.net/management/v1/counters";
+
+    $TOKEN = "AQAAAAANqFA4AAc-EbXZF10eZk8NlvI4V8ezcjM";
+    $ID_COUNTER_METRIC = "82831150";
+
+    $DOCUMENT_ROOT = $_SERVER['DOCUMENT_ROOT'];
+
+    //$PATH_FILES_METRIK_JSON = $DOCUMENT_ROOT."/json/metrik/";
+    $PATH_FILES_METRIK_JSON = "json/metrik/";
+
+    $FILE_METRIK = "metrics.json";
+    $FILE_COUNTERS_INFO = "counters_info.json";
+    $FILE_GOAL_ORDER = "goal_order.json";
+
+    function includeMetrik(){
+        print('
+            <script src="/metrik/js/counter.js"></script>
+            <script src="/metrik/js/goal.js"></script>
+        
+            <script src="/metrik/js/counters_info.js"></script>
+            <script src="/metrik/js/test.js"></script>
+        
+            <script src="/metrik/auto_count_goal/request.js"></script>
+        ');
+    }
 
     function parseRequestUri($request_uri){
 
@@ -18,14 +45,27 @@
         return $result;
     }
 
-    function goToUrl($url){
+    function setJsGlobalPathLend(){
+        print ('
+            <script>
+              window.CURRNET_HOST = location.protocol + "//" + location.host + location.pathname;
+              window.METRIK_JSON = window.CURRNET_HOST + "/json/metrik/";
+            </script>
+            ');
+    }
+
+
+function goToUrl($url){
         //header('Location: /prelends/'.$url.'/index.php');
+
+        include_once "./metrik/metric-api.php";
+        //include_once ".metrik/metric-api.php";
 
         global $PATH_PRELANDING;
         $PATH_PRELANDING = 'prelends/'.$url.'/';
 
         global $data;
-        $data = json_decode(file_get_contents($PATH_PRELANDING.'json/data.json'));
+        $data = json_decode(file_get_contents($PATH_PRELANDING.'data.json'));
         include_once $PATH_PRELANDING.'index.php';
 
         //include_once "prelends/proipoteka.ru/index.php";

@@ -82,11 +82,6 @@ window.onload = function() {
 
       (function () {
 
-        let path = document.documentURI.replace("index.php", "").replace(HREF_ID, "");
-        path = path.split('?')[0];
-
-        path = path + "prelends/proipoteka.ru/"
-
         getResource(path + 'php/mail/mail.php')
           .then(data => console.log(data))
           .catch(err => console.log(err));

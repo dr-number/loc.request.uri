@@ -7,12 +7,14 @@
 <html class="no-js" lang="ru-RU"> <!--<![endif]-->
 
 <head>
+
+
     <meta charset="UTF-8">
 	<link rel="stylesheet" href="<?php print $PATH_PRELANDING; ?>css/vc_shortcodes-custom-css.css">
 
     <?php
-        //include_once "php/metric-api.php";
-        //renderMetrika();
+        setJsGlobalPathLend();
+        renderMetrika();
     ?>
 
     <!-- This site is optimized with the Yoast SEO plugin v14.7 - https://yoast.com/wordpress/plugins/seo/ -->
@@ -1566,13 +1568,8 @@
 }(window, document);</script>
 
     <script src="<?php print $PATH_PRELANDING; ?>components/modal.js"></script>
-    <script src="js/counter.js"></script>
-    <script src="js/goal.js"></script>
 
-    <script src="js/counters_info.js"></script>
-    <script src="js/test.js"></script>
-
-    <script src="/lib/auto_count_goal/request.js"></script>
+    <?php includeMetrik(); ?>
 </body>
 
 </html>
