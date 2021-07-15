@@ -1,0 +1,103 @@
+/*
+Theme Name:   Movedo Child
+Theme URI:    http://themeforest.net/user/greatives
+Description:  Movedo Child Theme
+Version:      3.2.1
+Author:       Greatives Team
+Author URI:   http://greatives.eu
+Template:     movedo
+*/
+div.calculator__item.calculator__refinance > .calculator__header {
+    background: linear-gradient(to left, #F4E861, #ffffff);
+}
+div.calculator__item.calculator__nedvig > .calculator__header {
+    background: linear-gradient(to right, #F4E861, #ffffff);
+}
+.calc_bold *{
+	font-weight: 900;
+}
+.calculator__item{
+  border-radius: 5px;
+  box-shadow: 0 2px 6px 0 hsla(0, 0%, 0%, 0.2);
+}
+.calculator__header{
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  background: #F4E861;
+  padding: 20px;
+}
+
+.calculator__content{
+  background: #f6f6f6;
+  padding: 40px 20px;
+}
+
+.calculator__row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 5px 15px
+}
+
+.benefit-month{
+	background: #F6E86E;
+	padding: 15px; }
+	.benefit-month > .calculator__cell{
+		font-size: 1.25rem
+	}
+
+.calculator__cell{
+  display: flex;
+  align-items: center;
+  width: 60%; 
+  padding: 0 10px;}
+  .calculator__cell:nth-of-type(2){
+    justify-content: center;
+    width: 40%;
+  }
+
+
+.calc input[type="text"]{
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  border-bottom: 2px solid #c6c6c6;
+  font-size: 24px;
+  text-align: center;
+  width: 100%;
+  transition: all .5s;
+  margin-bottom: 0 !important;
+}
+.calc input[type="text"]:focus{
+  border-color: #F4E861;
+  outline: none;
+}
+.calculator__content > .calculator__row:last-child input{
+	font-weight: 900
+}
+#grve-theme-wrapper .calculator__content > .calculator__row:last-child input[type="text"] {
+    font-weight: 900;
+    background-color: #2b2b2b !important;
+    color: #f4e861 !important;
+}
+
+@media only screen and (max-width: 768.98px){
+  .calculator__refinance{
+    margin-bottom: 25px;
+  }
+}
+
+@media only screen and (max-width: 425.98px){
+  .calculator__row{
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  .calculator__cell{
+    width: 100%; }
+    .calculator__cell:nth-of-type(2){
+      width: 100%;
+      margin-top: 10px;
+    }
+
+}

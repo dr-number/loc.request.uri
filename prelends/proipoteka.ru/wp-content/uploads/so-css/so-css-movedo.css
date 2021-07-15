@@ -1,0 +1,43 @@
+#grve-theme-wrapper input[type="text"] {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#grve-theme-wrapper input[type="tel"] {
+  background-color: #ffffff;
+  color: #000000;
+}
+.hidden-desc .grve-read-more{
+  display: none;
+}
+.hidden-desc p {
+    font-size: 1.2em ;
+}
+.hidden-desc h2 {
+    font-size: 2em ;
+}
+
+header:not[class*="grve-sticky-header"]  ul > li.current-menu-item > a{
+   color: #000 !important
+}
+header.grve-sticky-header h4, header.grve-sticky-header a{
+  color: #f4e861 !important;
+}
+#title-block-1, #title-block-3 {
+    padding: 20px 5px;
+    background: #eee;
+    border: 1px solid transparent;
+    border-radius: 10px 10px 0 0;
+}
+#title-block-2{
+    padding: 20px 5px;
+    background: #eee;
+    border: 1px solid transparent;
+    border-radius: 0 0 10px 10px;
+}
+.hidden-desc h2 {
+    font-size: 2em;
+}
+.min-height228{
+  min-height: 228px;
+}

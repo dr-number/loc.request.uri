@@ -1,0 +1,272 @@
+.maxbutton-7.maxbutton.maxbutton-oprosnik {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    height: 50px;
+    border: 2px groove #262626;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #f4e861;
+    -webkit-box-shadow: 0px 0px 2px 3px #ffffff;
+    -moz-box-shadow: 0px 0px 2px 3px #ffffff;
+    box-shadow: 0px 0px 2px 3px #ffffff
+}
+
+.maxbutton-7.maxbutton.maxbutton-oprosnik:hover {
+    border-color: #303030;
+    background-color: #0a0707;
+    -webkit-box-shadow: 0px 0px 2px 3px #eded00;
+    -moz-box-shadow: 0px 0px 2px 3px #eded00;
+    box-shadow: 0px 0px 2px 3px #eded00
+}
+
+.maxbutton-7.maxbutton.maxbutton-oprosnik .mb-text {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 13px 0px 0px 0px
+}
+
+.maxbutton-7.maxbutton.maxbutton-oprosnik:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .maxbutton-7.maxbutton.maxbutton-oprosnik {
+        width: 230px;
+        height: 45px
+    }
+
+    .maxbutton-7.maxbutton.maxbutton-oprosnik .mb-text {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .maxbutton-7.maxbutton.maxbutton-oprosnik {
+        width: 220px;
+        height: 45px
+    }
+
+    .maxbutton-7.maxbutton.maxbutton-oprosnik .mb-text {
+        font-size: 14px
+    }
+}
+
+.maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 360px;
+    height: 50px;
+    border: 2px groove #262626;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #f4e861;
+    -webkit-box-shadow: 0px 0px 2px 3px #ffffff;
+    -moz-box-shadow: 0px 0px 2px 3px #ffffff;
+    box-shadow: 0px 0px 2px 3px #ffffff
+}
+
+.maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu:hover {
+    border-color: #303030;
+    background-color: #0a0707;
+    -webkit-box-shadow: 0px 0px 2px 3px #eded00;
+    -moz-box-shadow: 0px 0px 2px 3px #eded00;
+    box-shadow: 0px 0px 2px 3px #eded00
+}
+
+.maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu .mb-text {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 13px 0px 0px 0px
+}
+
+.maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu {
+        width: 230px;
+        height: 45px
+    }
+
+    .maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu .mb-text {
+        font-size: 14px
+    }
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu {
+        width: 220px;
+        height: 45px
+    }
+
+    .maxbutton-1.maxbutton.maxbutton-zakazat-konsultaciyu .mb-text {
+        font-size: 14px
+    }
+}
+
+.maxbutton-2.maxbutton.maxbutton-ostavit-zayavku {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 180px;
+    height: 40px;
+    border: 1px double #ffffff;
+    border-radius: 2px 2px 2px 2px;
+    background-color: rgba(255, 255, 255, 0.09);
+    -webkit-box-shadow: 0px 3px 3px 1px #e3ef00;
+    -moz-box-shadow: 0px 3px 3px 1px #e3ef00;
+    box-shadow: 0px 3px 3px 1px #e3ef00
+}
+
+.maxbutton-2.maxbutton.maxbutton-ostavit-zayavku:hover {
+    border-color: #ffffff;
+    background-color: black;
+    -webkit-box-shadow: 0px 3px 3px 1px #e3ef00;
+    -moz-box-shadow: 0px 3px 3px 1px #e3ef00;
+    box-shadow: 0px 3px 3px 1px #e3ef00
+}
+
+.maxbutton-2.maxbutton.maxbutton-ostavit-zayavku .mb-text {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 12px 0px 0px 0px
+}
+
+.maxbutton-2.maxbutton.maxbutton-ostavit-zayavku:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .maxbutton-2.maxbutton.maxbutton-ostavit-zayavku {
+        width: 130px;
+        height: 40px
+    }
+
+    .maxbutton-2.maxbutton.maxbutton-ostavit-zayavku .mb-text {
+        font-size: 12px
+    }
+}
+
+.maxbutton-4.maxbutton.maxbutton-oformit-zayavku2 {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 250px;
+    height: 40px;
+    border: 1px solid #000000;
+    border-radius: 2px 2px 2px 2px;
+    background-color: black;
+    -webkit-box-shadow: 0px 3px 1px 0px #f4e861;
+    -moz-box-shadow: 0px 3px 1px 0px #f4e861;
+    box-shadow: 0px 3px 1px 0px #f4e861
+}
+
+.maxbutton-4.maxbutton.maxbutton-oformit-zayavku2:hover {
+    border-color: #000000;
+    background-color: white;
+    -webkit-box-shadow: 0px 3px 1px 0px #f4f41d;
+    -moz-box-shadow: 0px 3px 1px 0px #f4f41d;
+    box-shadow: 0px 3px 1px 0px #f4f41d
+}
+
+.maxbutton-4.maxbutton.maxbutton-oformit-zayavku2 .mb-text {
+    color: #ffffff;
+    font-size: 16px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 12px 0px 0px 0px
+}
+
+.maxbutton-4.maxbutton.maxbutton-oformit-zayavku2:hover .mb-text {
+    color: #000000
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    .maxbutton-4.maxbutton.maxbutton-oformit-zayavku2 {
+        width: 200px;
+        height: auto
+    }
+}
+
+.maxbutton-6.maxbutton.maxbutton-oformit-zayavku {
+    position: relative;
+    text-decoration: none;
+    display: inline-block;
+    vertical-align: middle;
+    width: 440px;
+    height: 50px;
+    border: 2px groove #262626;
+    border-radius: 30px 30px 30px 30px;
+    background-color: #f4e861;
+    -webkit-box-shadow: 0px 0px 2px 3px #ffffff;
+    -moz-box-shadow: 0px 0px 2px 3px #ffffff;
+    box-shadow: 0px 0px 2px 3px #ffffff
+}
+
+.maxbutton-6.maxbutton.maxbutton-oformit-zayavku:hover {
+    border-color: #303030;
+    background-color: #0a0707;
+    -webkit-box-shadow: 0px 0px 2px 3px #eded00;
+    -moz-box-shadow: 0px 0px 2px 3px #eded00;
+    box-shadow: 0px 0px 2px 3px #eded00
+}
+
+.maxbutton-6.maxbutton.maxbutton-oformit-zayavku .mb-text {
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 1em;
+    box-sizing: border-box;
+    display: block;
+    background-color: unset;
+    padding: 15px 0px 0px 0px
+}
+
+.maxbutton-6.maxbutton.maxbutton-oformit-zayavku:hover .mb-text {
+    color: #ffffff
+}
+
+@media only screen and (min-width: 0px) and (max-width: 480px) {
+    .maxbutton-6.maxbutton.maxbutton-oformit-zayavku {
+        width: 300px;
+        height: 50px
+    }
+
+    .maxbutton-6.maxbutton.maxbutton-oformit-zayavku .mb-text {
+        font-size: 15px
+    }
+}

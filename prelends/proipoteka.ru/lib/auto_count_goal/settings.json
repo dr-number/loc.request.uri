@@ -1,0 +1,44 @@
+{
+    "projects": [
+        {
+            "name": "test new2",
+            "url": "url1",
+            "counterName": "counterName 1"
+        },
+        {
+            "name": "Новый",
+            "url": "url1",
+            "counterName": "counterName 1"
+        },
+        {
+            "name": "Новый Три",
+            "url": "url333",
+            "counterName": "Третий"
+        },
+        {
+            "name": "Пятый",
+            "url": "five",
+            "counterName": "Пять"
+        },
+        {
+            "name": "ШШШШ",
+            "url": "five",
+            "counterName": "шесть"
+        },
+        {
+            "name": "Последний",
+            "url": "end",
+            "counterName": "Проверка"
+        }
+    ],
+    "md5": "dc66e780e1e9c908161223094d9a9061",
+    "oldProjects": [
+        "test new",
+        "test new2",
+        "Новый",
+        "Новый Три",
+        "Пятый",
+        "ШШШШ",
+        "Последний"
+    ]
+}
