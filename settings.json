@@ -14,13 +14,33 @@
             "name": "Сайт 3",
             "url": "site3.ru",
             "counterName": "counter site3"
+        },
+        {
+            "name": "Сайт27",
+            "url": "site__27.ru",
+            "counterName": "counter site__27 16.07"
+        },
+        {
+            "name": "Сайт28",
+            "url": "site 28.ru",
+            "counterName": "counter site 28"
+        },
+        {
+            "name": "Сайт288888",
+            "url": "site 28.ru",
+            "counterName": "counter site 28"
         }
     ],
-    "md5": "dc66e780e1e9c908161223094d9a9061",
+    "md5": "abbcc20ee4abbd1284a6eccd85ab5452",
     "oldProjects": [
         "ПРОипотека",
         "Сайт 2",
         "Сайт 3",
-        "Сайт 4"
+        "Сайт 4",
+        "Сайт2",
+        "Сайт27",
+        "Сайт28",
+        "Сайт288",
+        "Сайт288888"
     ]
 }
