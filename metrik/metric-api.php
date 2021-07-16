@@ -1,5 +1,5 @@
 <?php
-   global $ID_COUNTER_METRIC, $PATH_FILES_METRIK_JSON, $FILE_METRIK, $FILE_GOAL_ORDER, $FILE_COUNTERS_INFO;
+   include_once "constants.php";
 
     function getContext(){
         global $TOKEN;
@@ -63,7 +63,8 @@
 
     function saveDataCounters($outputFile){
 
-        global $URL_METRIKA_COUNTERS;
+        global  $URL_METRIKA_COUNTERS;
+
         $url = $URL_METRIKA_COUNTERS;
 
         $metrikaRequest = file_get_contents($url, false, getContext());
@@ -225,7 +226,7 @@ function saveDataGoal($ID_COUNTER_METRIC, $GOAL, $outputFile){
 
     //$counters = saveDataCounters( $PATH_FILES_METRIK_JSON.$FILE_COUNTERS_INFO);
 
-    createCounter("effeminate-beacon.000webhostapp.com", "counter1443");
+    //createCounter("effeminate-beacon.000webhostapp.com", "counter1443");
 
     //renderMetrika(array(82871641));
     //renderMetrika(array(0000000000));

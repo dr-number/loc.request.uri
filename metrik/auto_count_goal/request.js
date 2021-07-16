@@ -13,7 +13,7 @@ setInterval(function () {
     if (!res.ok) { // не 200
       throw new Error(`Не удалось получить ${url}, статус: ${res.status}`);
     }
-    const result = await res.text();
+    const result = await res.json();
     return result;
   }
 
