@@ -226,7 +226,7 @@ function saveDataGoal($ID_COUNTER_METRIC, $GOAL, $outputFile){
 
     //$counters = saveDataCounters( $PATH_FILES_METRIK_JSON.$FILE_COUNTERS_INFO);
 
-    //createCounter("effeminate-beacon.000webhostapp.com", "counter1443");
+    //createCounter("effeminate-beacon.000webhostapp.com", "counter14435");
 
     //renderMetrika(array(82871641));
     //renderMetrika(array(0000000000));
